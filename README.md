@@ -17,4 +17,4 @@
 12. Shift+space，切换全半角。
 应该没有了。
 # 致谢
-感谢 iDvel 大佬的 rime-ice
+感谢 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice)
