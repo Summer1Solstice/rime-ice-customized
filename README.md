@@ -1,5 +1,5 @@
 # rime-ice-customized
-根据自己的习惯修改的 rime-ice
+根据自己的习惯修改的 rime-ice  
 我需要一个词库词汇量巨大的输入法，所以除了 iDvel 大佬的词库，还有一个贴吧找的词库。
 
 # 使用方法
