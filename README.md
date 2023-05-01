@@ -1,5 +1,12 @@
 # rime-ice-customized
-根据自己的习惯修改的rime-ice
+根据自己的习惯修改的 rime-ice
+我需要一个词库词汇量巨大的输入法，所以除了 iDvel 大佬的词库，还有一个贴吧找的词库。
+
+# 使用方法
+下载 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice) 放在 `%APPDATA%\Rime` 文件夹下。
+下载本项目覆盖之
+不需要词库，则下载后删除‘luna_pinyin’开头的‘.dict.yaml’。
+
 # 修改项
 暂时想不起来全部,先写一部分.
 
@@ -16,5 +23,7 @@
 11. ctrl+shift+f，切换简繁。
 12. Shift+space，切换全半角。
 应该没有了。
+
 # 致谢
 感谢 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice)
+感谢 "SuperRime拓展词库 for 朙月拼音(700万词-含BetterRime) v20.3" 词库。
