@@ -14,7 +14,7 @@ schema:
     https://github.com/iDvel/rime-ice
   dependencies:
     - melt_eng  # 英文输入，作为次翻译器挂载到拼音方案
-    - liangfen  # 两分拼字，作为反查挂载到拼音方案。
+    - liangfen  # 两分拼字，作为反查挂载到拼音方案
 
 
 # 开关
