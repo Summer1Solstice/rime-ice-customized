@@ -18,7 +18,6 @@ import_tables:
   - luna_pinyin.chat
   - luna_pinyin.cn_en
   - luna_pinyin.computer
-  #- luna_pinyin.english
   - luna_pinyin.extra_hanzi
   - luna_pinyin.game
   - luna_pinyin.history
@@ -35,5 +34,6 @@ import_tables:
   - luna_pinyin.user
   - luna_pinyin.webdict
   - luna_pinyin.website
+  #- luna_pinyin.english
 ...
  
