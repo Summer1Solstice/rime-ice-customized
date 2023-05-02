@@ -30,5 +30,5 @@
 应该没有了。
 
 # 致谢
-感谢 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice)
+感谢 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice)  
 感谢 "SuperRime拓展词库 for 朙月拼音(700万词-含BetterRime) v20.3" 词库。
