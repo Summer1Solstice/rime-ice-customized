@@ -1,0 +1,24 @@
+patch:
+  schema_list:
+    - schema: rime_ice
+  menu:
+    page_size: 9
+  switcher:
+    hotkeys:
+      - Control+grave
+    save_options:  # 开关记忆，从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
+      - ascii_punct
+      - traditionalization
+      - emoji
+      - full_shape
+      - ascii_mode
+  key_binder:
+    bindings:
+    # 翻页 pgup pgdn
+    - { when: paging, accept: Prior, send: Page_Up }
+    - { when: paging, accept: Next, send: Page_Down }
+
+    - { when: always, accept: Shift, toggle: ascii_mode }          # 切换中英
+    - { when: always, accept: Control+period, toggle: ascii_punct }           # 切换中英标点
+    - { when: always, accept: Control+Shift+f, toggle: traditionalization }    # 切换简繁
+    - { when: always, accept: Shift+space, toggle: full_shape }          # 切换全半角

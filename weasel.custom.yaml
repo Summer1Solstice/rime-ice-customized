@@ -1,9 +1,5 @@
 patch:
+
   "style/horizontal": true
   "style/font_face": "LXGW WenKai"
-  save_options:  # 开关记忆，从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
-    - ascii_punct
-    - traditionalization
-    - emoji
-    - full_shape
-    - ascii_mode
+  #"style/display_tray_icon": true
