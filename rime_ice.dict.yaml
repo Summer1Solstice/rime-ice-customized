@@ -27,13 +27,21 @@ import_tables:
   - luna_pinyin.net
   - luna_pinyin.place
   - luna_pinyin.poetry
-  - luna_pinyin.sgmain
   - luna_pinyin.sgplus
   - luna_pinyin.sgplus2
   - luna_pinyin.shopping
   - luna_pinyin.user
   - luna_pinyin.webdict
   - luna_pinyin.website
-  #- luna_pinyin.english
+  # - luna_pinyin.sgmain
+  # - luna_pinyin.sgmain2
+  # - luna_pinyin.sgmain3
+  # - luna_pinyin.sgmain4
+  # - luna_pinyin.sgmain5
+  # - luna_pinyin.sgmain6
+  # - luna_pinyin.sgmain7
+  # - luna_pinyin.sgmain8
+  # - luna_pinyin.sgmain9
+  # - luna_pinyin.english
 ...
  
