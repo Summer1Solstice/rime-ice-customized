@@ -7,7 +7,11 @@
 
 下载 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice) 放在 `%APPDATA%\Rime` 文件夹下。
 下载本项目覆盖之
-不需要其他词库，则下载后删除‘luna_pinyin’开头的‘.dict.yaml’。
+不需要其他词库，则下载后删除  
+
+    - luna_pinyin
+
+    ‘ ’super ‘ easy` 开头的‘.dict.yaml’。
 
 # 修改项
 
@@ -35,4 +39,4 @@
 # 致谢
 
 感谢 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice)
-感谢 "SuperRime拓展词库 for 朙月拼音(700万词-含BetterRime) v20.3" 词库。
+感谢 **imy0823** 的"SuperRime拓展词库 for 朙月拼音(700万词-含BetterRime) v20.3" 词库。
