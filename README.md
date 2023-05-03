@@ -5,12 +5,14 @@
 
 # 使用方法
 
-下载 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice) 放在 `%APPDATA%\Rime` 文件夹下。
-下载本项目覆盖之
-不需要其他词库，则下载后删除下列名称开头的‘.dict.yaml’词库文件。
-    - luna_pinyin
-    - super_rime
-    - easy_en
+1. 下载 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice) 放在 `%APPDATA%\Rime` 文件夹下。
+
+2. 下载本项目覆盖之，删除'luna_pinyin.extended.dict.yaml'文件，后重新部署。
+
+3. 不需要其他词库，则下载后删除下列名称开头的‘.dict.yaml’词库文件。  
+    - luna_pinyin  
+    - super_rime  
+    - easy_en  
     
 # 修改项
 
