@@ -9,16 +9,22 @@
 1. 下载 iDvel 大佬的 [rime-ice](https://github.com/iDvel/rime-ice) 放在 `%APPDATA%\Rime` 文件夹下。
 2. 下载本项目覆盖之，后重新部署。
 3. 不需要其他词库，则下载后删除下列名称开头的‘.dict.yaml’词库文件。
-
    - luna_pinyin
    - super_rime
    - easy_en
+
+# 更新记录
+
+2023/05/05
+
+统一使用 `custom`进行修改,注释掉两个词库,使用右Shift切换中英.
 
 # 修改项
 
 暂时想不起来全部,先写一部分.
 
 1. 永久记住 中英符号、全半角、简繁等。
+   手动注释 `rime_ice.schema.yaml`文件中 `switches`项中的reset。
 2. 合并了一个8-9年前的700万明月拼音的词库进去,
 3. 拆分 `luna_pinyin.sgmain.dict.yaml`词库，它导致rime部署时间过长。
    - 如果经常需要重新部署，就算你需要大量词库词汇，也不建议你添加这个词库。
@@ -31,9 +37,9 @@
 6. 使用 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 作为rime的字体。因为它能显示𰻝𰻝面的𰻝（biang）。
 7. 方案选单只使用 Control+grave。
 8. 使用pgup、pgdn，候选词翻页。也不知道生效没。
-9. shift，切换中英
+9. 右shift，切换中英。方便一些需要英文输入又频繁使用Shift的游戏。特别是某些沙盒生存建造游戏。
 10. ctrl+。，切换中英符号。
-11. ctrl+shift+f，切换简繁。
+11. ~~ctrl+shift+f，切换简繁。~~ 此项无效
 12. Shift+space，切换全半角。
     应该没有了。
 
