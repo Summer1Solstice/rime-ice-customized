@@ -22,8 +22,8 @@ import_tables:
   - luna_pinyin.game
   - luna_pinyin.history
   - luna_pinyin.moba
-  - luna_pinyin.movie
-  - luna_pinyin.music
+  # - luna_pinyin.movie
+  # - luna_pinyin.music
   - luna_pinyin.net
   - luna_pinyin.place
   - luna_pinyin.poetry

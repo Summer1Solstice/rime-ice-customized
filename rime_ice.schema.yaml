@@ -30,7 +30,7 @@ switches:
     #reset: 0
   - name: traditionalization
     states: [ 简, 繁 ]
-    #reset: 0
+    #reset: 0.
   - name: emoji
     states: [ 💀, 😄 ]
     #reset: 1
@@ -42,7 +42,7 @@ switches:
 # 输入引擎
 engine:
   processors:
-    - lua_processor@select_character  # 以词定字
+    - lua_processor@*select_character      # 以词定字
     - ascii_composer
     - recognizer
     - key_binder
@@ -60,18 +60,19 @@ engine:
   translators:
     - punct_translator
     - script_translator
-    - lua_translator@date_translator      # 时间、日期、星期
+    - lua_translator@*date_translator     # 时间、日期、星期
     - table_translator@custom_phrase      # 自定义短语 custom_phrase.txt
     - table_translator@melt_eng           # 英文输入
     - reverse_lookup_translator@liangfen  # 反查，两分拼字
-    - lua_translator@unicode              # Unicode
+    - lua_translator@*unicode             # Unicode
   filters:
-    - simplifier@emoji                  # Emoji
-    - simplifier@traditionalize         # 简繁切换
-    - lua_filter@v_filter               # v 模式 symbols 优先（否则是英文优先）
-    - lua_filter@reduce_english_filter  # 降低部分英语单词在候选项的位置
-    - lua_filter@long_word_filter       # 长词优先
-    - uniquifier                        # 去重
+    - simplifier@emoji                    # Emoji
+    - simplifier@traditionalize           # 简繁切换
+    # - lua_filter@*is_in_user_dict       # 为用户词典中（输入过）的内容结尾加上一个星号 *
+    - lua_filter@*v_filter                # v 模式 symbols 优先（否则是英文优先）
+    - lua_filter@*reduce_english_filter   # 降低部分英语单词在候选项的位置
+    - lua_filter@*long_word_filter        # 长词优先
+    - uniquifier                          # 去重
 
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
