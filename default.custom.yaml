@@ -1,8 +1,12 @@
 patch:
+  # 方案列表
   schema_list:
     - schema: rime_ice
+  #候选词个数
   menu/page_size: 9
+  # 方案选单相关
   switcher:
+    caption: 「方案选单」
     hotkeys:
       - Control+grave
     save_options:  # 开关记忆，从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
@@ -11,6 +15,23 @@ patch:
       - traditionalization
       - emoji
       - full_shape
+    fold_options: false            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
+    abbreviate_options: false      # 折叠时是否缩写选项
+    option_list_separator: ' / '  # 折叠时的选项分隔符
+  # 中西文切换
+  # 
+  # good_old_caps_lock:
+  # true   切换大写
+  # false  切换中英
+  # macOS 偏好设置的优先级更高，如果勾选【使用大写锁定键切换“ABC”输入法】则始终会切换输入法。
+  #
+  # 切换中英：
+  # 不同的选项表示：打字打到一半时按下了 CapsLock、Shift、Control 后：
+  # commit_code  上屏原始的编码，然后切换到英文
+  # commit_text  上屏拼出的词句，然后切换到英文
+  # clear        清除未上屏内容，然后切换到英文
+  # inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
+  # noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
   ascii_composer:
     good_old_caps_lock: true  # true | false
     switch_key:
@@ -19,8 +40,8 @@ patch:
       Shift_R: commit_text         # commit_code | commit_text | inline_ascii | clear | noop
       Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
       Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
-  key_binder:
-    bindings:
+  # 快捷键
+  key_binder/bindings:
     # 翻页 pgup pgdn
     - { when: paging, accept: Prior, send: Page_Up }
     - { when: paging, accept: Next, send: Page_Down }
