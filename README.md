@@ -21,14 +21,17 @@
 
 2023/05/06
 
-替换了方案选单中,Emoji选项的显示符号,💀😀-->❌⭕
+替换了方案选单中,Emoji选项的显示符号,💀😀-->❌⭕  
+
+2023/05/12  
+
+`custom_phrase.txt` 添加几个词条.  
 
 # 修改项
 
 暂时想不起来全部,先写一部分.
 
-1. 永久记住 中英符号、全半角、简繁等。  
-   手动注释 `rime_ice.schema.yaml`文件中 `switches`项中的reset。
+1. 永久记住 中英符号、全半角、简繁等。手动注释 `rime_ice.schema.yaml`文件中 `switches`项中的reset。
 2. 默认不在候选词中添加Emoji。
 3. 合并了一个8-9年前的700万明月拼音的词库进去,
 4. 拆分 `luna_pinyin.sgmain.dict.yaml`词库，它导致rime部署时间过长。
