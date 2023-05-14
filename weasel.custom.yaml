@@ -1,11 +1,16 @@
 patch:
   "style/horizontal": true
-  "style/font_face": "LXGW WenKai" 
+  "style/font_face": "lxgw wenkai"
 
   app_options/dontstarve_steam_x64.exe:
-    ascii_mode: true 
+    ascii_mode: true
   app_options/powershell.exe:
     ascii_mode: true
   app_options/code.exe:
     ascii_mode: true
-  
+  app_options/windowsterminal.exe:
+    ascii_mode: true
+  app_options/pwsh.exe:
+    ascii_mode: true
+  app_options/openconsole.exe:
+    ascii_mode: true
