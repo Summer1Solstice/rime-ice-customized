@@ -1,16 +1,23 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sat May 27 16:53:45 2023"
+  rime_version: 1.8.5
 patch:
-  "style/horizontal": true
+  "app_options/code.exe":
+    ascii_mode: true
+  "app_options/dontstarve_steam_x64.exe":
+    ascii_mode: true
+  "app_options/openconsole.exe":
+    ascii_mode: true
+  "app_options/powershell.exe":
+    ascii_mode: true
+  "app_options/pwsh.exe":
+    ascii_mode: true
+  "app_options/windowsterminal.exe":
+    ascii_mode: true
+    
+  "style/color_scheme": aqua
   "style/font_face": "lxgw wenkai"
-
-  app_options/dontstarve_steam_x64.exe:
-    ascii_mode: true
-  app_options/powershell.exe:
-    ascii_mode: true
-  app_options/code.exe:
-    ascii_mode: true
-  app_options/windowsterminal.exe:
-    ascii_mode: true
-  app_options/pwsh.exe:
-    ascii_mode: true
-  app_options/openconsole.exe:
-    ascii_mode: true
+  "style/horizontal": true
