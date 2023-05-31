@@ -13,35 +13,35 @@ import_tables:
   - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
   - cn_dicts/others   # 一些杂项
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
-  - luna_pinyin.anime
-  - luna_pinyin.biaoqing
-  - luna_pinyin.chat
-  - luna_pinyin.cn_en
-  - luna_pinyin.computer
-  - luna_pinyin.extra_hanzi
-  - luna_pinyin.game
-  - luna_pinyin.history
-  - luna_pinyin.moba
-  # - luna_pinyin.movie
-  # - luna_pinyin.music
-  - luna_pinyin.net
-  - luna_pinyin.place
-  - luna_pinyin.poetry
-  - luna_pinyin.sgplus
-  - luna_pinyin.sgplus2
-  - luna_pinyin.shopping
-  - luna_pinyin.user
-  - luna_pinyin.webdict
-  - luna_pinyin.website
-  # - luna_pinyin.sgmain
-  # - luna_pinyin.sgmain2
-  # - luna_pinyin.sgmain3
-  # - luna_pinyin.sgmain4
-  # - luna_pinyin.sgmain5
-  # - luna_pinyin.sgmain6
-  # - luna_pinyin.sgmain7
-  # - luna_pinyin.sgmain8
-  # - luna_pinyin.sgmain9
-  # - luna_pinyin.english
+  - SuperRime/luna_pinyin.anime
+  - SuperRime/luna_pinyin.biaoqing
+  - SuperRime/luna_pinyin.chat
+  - SuperRime/luna_pinyin.cn_en
+  - SuperRime/luna_pinyin.computer
+  - SuperRime/luna_pinyin.extra_hanzi
+  - SuperRime/luna_pinyin.game
+  - SuperRime/luna_pinyin.history
+  - SuperRime/luna_pinyin.moba
+  # - SuperRime/luna_pinyin.movie
+  # - SuperRime/luna_pinyin.music
+  - SuperRime/luna_pinyin.net
+  - SuperRime/luna_pinyin.place
+  - SuperRime/luna_pinyin.poetry
+  - SuperRime/luna_pinyin.sgplus
+  - SuperRime/luna_pinyin.sgplus2
+  - SuperRime/luna_pinyin.shopping
+  - SuperRime/luna_pinyin.user
+  - SuperRime/luna_pinyin.webdict
+  - SuperRime/luna_pinyin.website
+  # - SuperRime/luna_pinyin.sgmain
+  # - SuperRime/luna_pinyin.sgmain2
+  # - SuperRime/luna_pinyin.sgmain3
+  # - SuperRime/luna_pinyin.sgmain4
+  # - SuperRime/luna_pinyin.sgmain5
+  # - SuperRime/luna_pinyin.sgmain6
+  # - SuperRime/luna_pinyin.sgmain7
+  # - SuperRime/luna_pinyin.sgmain8
+  # - SuperRime/luna_pinyin.sgmain9
+  # - SuperRime/luna_pinyin.english
 ...
  

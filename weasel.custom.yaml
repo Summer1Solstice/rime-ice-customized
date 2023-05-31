@@ -5,9 +5,9 @@ customization:
   modified_time: "Sat May 27 16:53:45 2023"
   rime_version: 1.8.5
 patch:
-  "app_options/code.exe":
-    ascii_mode: true
-  "app_options/dontstarve_steam_x64.exe":
+  # "app_options/code.exe": #VSCode
+    # ascii_mode: true
+  "app_options/dontstarve_steam_x64.exe": #饥荒联机版 
     ascii_mode: true
   "app_options/openconsole.exe":
     ascii_mode: true
@@ -17,7 +17,11 @@ patch:
     ascii_mode: true
   "app_options/windowsterminal.exe":
     ascii_mode: true
-    
+  "app_options/java.exe": # java 我的世界
+    ascii_mode: true
+  "app_options/cmd.exe":
+    ascii_mode: true
+
   "style/color_scheme": aqua
   "style/font_face": "lxgw wenkai"
   "style/horizontal": true
