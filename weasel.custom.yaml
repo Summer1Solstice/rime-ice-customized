@@ -7,7 +7,7 @@ customization:
 patch:
   # "app_options/code.exe": #VSCode
     # ascii_mode: true
-  "app_options/dontstarve_steam_x64.exe": #¼¢»ÄÁª»ú°æ 
+  "app_options/dontstarve_steam_x64.exe": #é¥¥è’è”æœºç‰ˆ 
     ascii_mode: true
   "app_options/openconsole.exe":
     ascii_mode: true
@@ -17,7 +17,7 @@ patch:
     ascii_mode: true
   "app_options/windowsterminal.exe":
     ascii_mode: true
-  "app_options/java.exe": # java ÎÒµÄÊÀ½ç
+  "app_options/java.exe": # java æˆ‘çš„ä¸–ç•Œ
     ascii_mode: true
   "app_options/cmd.exe":
     ascii_mode: true
