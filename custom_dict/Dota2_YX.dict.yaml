@@ -1,0 +1,95 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 我自己的补充字库.
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 于重新部署后生效
+#
+
+---
+name: xz_ziku.dict.yaml
+version: "2023/06/042"
+sort: by_weight
+columns:    # 不写 columns 属性时，默认顺序为：
+  - text    # 词汇
+  - code    # 编码
+  - weight  # 权重
+  #- stem    # 造词码（不知道是啥，好像和拼音方案没有关系）
+...
+
+Valve	v she	100
+没眼	mei yan	100
+魔晶	d mo jing	100
+玛西	maxi	100
+夜神夜神夜神	dys	1
+Dota2	dota	100
+
+上古巨神	da niu
+冥魂大帝	ku lou wang
+半人马战行者	ren ma
+噬魂鬼	xiao gou
+大地之灵	tu mao
+孽主	da pi gu
+帕吉	tu fu
+撼地者	xiao niu
+斯拉达	da yv
+昆卡	chuan zhang
+暗夜魔王	ye mo
+裂魂人	bai niu
+钢背兽	gang bei
+食人魔魔法师	lan pang
+
+主宰	jian sheng
+克林克兹	xiao ku lou
+冥界亚龙	du long
+卓尔游侠	xiao hei
+变体精灵	shui ren
+天穹守望者	dian gou
+幻影刺客	p a
+幻影长矛手	hou zi
+恐怖利刃	t b
+斯拉克	xiao yv
+森海飞霞	xiao song shu
+灰烬之灵	huo mao
+熊战士	pai pai
+狙击手	huo qiang
+矮人直升机	fei ji
+编织者	ma yi
+雷泽	dian gun
+
+修补匠	tk
+光之守卫	guang fa
+帕格纳	gu fa
+干扰者	sa er
+暗影恶魔	du gou
+暗影萨满	xiao y
+杰奇洛	shaung tou long
+死亡先知	d p
+殁境神蚀者	hei niao
+水晶室女	bing nv
+瘟疫法师	nec
+祈求者	ka er
+莉娜	huo nv
+远古冰魄	bing hun
+风暴之灵	lan mao
+魅惑魔女	xiao lu
+
+司夜刺客	xiao qiang
+复仇之魂	 vs
+寒冰飞龙	bing long
+工程师	zha dan ren 
+电炎绝手	lao nai nai
+石鳞剑士	gun gun
+米拉娜	bai hu
+维萨吉	si ling long
+艾欧	xiao jing ling
+虚无之灵	zi mao
+邪影芳灵	xiao xian nv
+马格纳斯	meng ma
+黑暗贤者	hei xian
