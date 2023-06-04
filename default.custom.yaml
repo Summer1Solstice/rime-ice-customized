@@ -42,6 +42,10 @@ patch:
       Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
   # 快捷键
   key_binder/bindings:
+    # Tab / Shift+Tab 切换光标至下/上一个拼音
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+
     # 翻页 pgup pgdn
     - { when: paging, accept: Prior, send: Page_Up }
     - { when: paging, accept: Next, send: Page_Down }
