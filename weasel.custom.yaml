@@ -24,10 +24,36 @@ patch:
     ascii_mode: true
 
   # 皮肤
-  "style/color_scheme": aqua
+  "style/color_scheme": Win10
   # 字体
   "style/font_face": "lxgw wenkai"
+  # 字号
+  "style/font_point": 16
   # 候选词横排
   "style/horizontal": true
   # 输入字符光标处内嵌
   "style/inline_preedit": true
+
+  "preset_color_schemes/Win10":
+    name: 仿Win10
+    author: me
+    back_color: 0xF1F1F1
+    border_color: 0xDBD9D8
+    text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0xD8DD96
+    hilited_candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0xFFD7A6
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+
+  "style/layout/border_width": 0
+  "style/layout/border": 0
+  "style/layout/margin_x": 8 #候选字左右边距
+  "style/layout/margin_y": 8 #候选字上下边距
+  "style/layout/hilite_padding": 8 #候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
+  "style/layout/hilite_spacing": 3 # 序号和候选字之间的间隔
+  "style/layout/spacing": 10 #不知道干嘛的+1，不清楚效果
+  "style/layout/candidate_spacing": 12 # 候选字间隔
+  "style/layout/round_corner": 0 #候选字背景色块圆角幅度
+  "style/layout/corner_radius": 0 # 候选窗口的圆角半径
