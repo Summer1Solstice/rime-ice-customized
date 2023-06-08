@@ -22,6 +22,11 @@ patch:
   "app_options/cmd.exe":
     ascii_mode: true
 
+  # 皮肤
   "style/color_scheme": aqua
+  # 字体
   "style/font_face": "lxgw wenkai"
+  # 忘了
   "style/horizontal": true
+  # 输入字符光标处内嵌
+  "style/inline_preedit": true
