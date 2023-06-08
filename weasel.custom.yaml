@@ -5,6 +5,7 @@ customization:
   modified_time: "Sat May 27 16:53:45 2023"
   rime_version: 1.8.5
 patch:
+  # 以下应用默认英文输入
   # "app_options/code.exe": #VSCode
     # ascii_mode: true
   "app_options/dontstarve_steam_x64.exe": #饥荒联机版 
@@ -22,11 +23,30 @@ patch:
   "app_options/cmd.exe":
     ascii_mode: true
 
-  # 皮肤
-  "style/color_scheme": aqua
-  # 字体
-  "style/font_face": "lxgw wenkai"
-  # 忘了
-  "style/horizontal": true
-  # 输入字符光标处内嵌
-  "style/inline_preedit": true
+  # 仿Win10皮肤
+  "preset_color_schemes/Win10":
+    name: 仿Win10
+    author: me
+    back_color: 0xF1F1F1
+    border_color: 0xDBD9D8
+    text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0xD8DD96
+    hilited_candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0xFFD7A6
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+  style:
+    # 皮肤选择
+    color_scheme: Win10
+    # 字体
+    font_face: lxgw wenkai
+    # 字号
+    # font_point: 16
+    # 候选词横排
+    horizontal: true
+    # 输入字符光标处内嵌
+    inline_preedit: true
+
+
+
