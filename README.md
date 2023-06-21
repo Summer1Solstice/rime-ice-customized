@@ -25,7 +25,7 @@
 "style/inline_preedit": true
 ```
 
-![插图1](custom_dict\仿win10配色.jpg)
+![插图1](custom_dict/仿win10配色.jpg)
 
 2023/06/08
 
