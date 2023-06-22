@@ -33,7 +33,6 @@ patch:
   "style/horizontal": true
   # 输入字符光标处内嵌
   "style/inline_preedit": true
-
   # 允许在光标位置获取失败时于窗口左上角绘制候选框
   "style/layout/enhanced_position": true
 
