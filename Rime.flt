@@ -1,0 +1,13 @@
+## This is a directory/file filter for WinMerge
+## 自定义筛选
+name: rime配置文件对比筛选
+desc: 跳过不必要的对比
+
+## This is an inclusive (loose) filter
+## (it lets through everything not specified)
+def: include
+
+f: \.gitignore
+f: README\.md
+
+d: \\\.git
