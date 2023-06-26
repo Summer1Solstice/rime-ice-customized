@@ -14,7 +14,7 @@
 
 ---
 name: xz_ziku.dict.yaml
-version: "2023/06/042"
+version: "2023-06-26"
 sort: by_weight
 columns:    # 不写 columns 属性时，默认顺序为：
   - text    # 词汇
@@ -22,13 +22,6 @@ columns:    # 不写 columns 属性时，默认顺序为：
   - weight  # 权重
   #- stem    # 造词码（不知道是啥，好像和拼音方案没有关系）
 ...
-
-Valve	v she	100
-没眼	mei yan	100
-魔晶	d mo jing	100
-玛西	maxi	100
-夜神夜神夜神	dys	1
-Dota2	dota	100
 
 上古巨神	da niu
 冥魂大帝	ku lou wang
