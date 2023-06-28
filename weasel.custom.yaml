@@ -24,17 +24,17 @@ patch:
     ascii_mode: true
 
   # 皮肤
-  "style/color_scheme": Win10
+  style/color_scheme: Win10
   # 字体
-  "style/font_face": "lxgw wenkai"
+  style/font_face: lxgw wenkai
   # 字号
-  "style/font_point": 16
+  style/font_point: 16
   # 候选词横排
-  "style/horizontal": true
+  style/horizontal: true
   # 输入字符光标处内嵌
-  "style/inline_preedit": true
+  style/inline_preedit: true
   # 允许在光标位置获取失败时于窗口左上角绘制候选框
-  "style/layout/enhanced_position": true
+  style/enhanced_position: true
 
   "preset_color_schemes/Win10":
     name: 仿Win10
@@ -75,15 +75,13 @@ patch:
     prevpage_color: 0x00000000
     nextpage_color: 0x00000000
 
-
-    
-  "style/layout/border_width": 0
-  "style/layout/border": 0
-  "style/layout/margin_x": 8 #候选字左右边距
-  "style/layout/margin_y": 8 #候选字上下边距
-  "style/layout/hilite_padding": 8 #候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
-  "style/layout/hilite_spacing": 3 # 序号和候选字之间的间隔
-  "style/layout/spacing": 10 #不知道干嘛的+1，不清楚效果
-  "style/layout/candidate_spacing": 12 # 候选字间隔
-  "style/layout/round_corner": 0 #候选字背景色块圆角幅度
-  "style/layout/corner_radius": 0 # 候选窗口的圆角半径
+  style/layout/border_width: 0
+  style/layout/border: 0
+  style/layout/margin_x: 8 #候选字左右边距
+  style/layout/margin_y: 8 #候选字上下边距
+  style/layout/hilite_padding: 8 #候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
+  style/layout/hilite_spacing: 3 # 序号和候选字之间的间隔
+  style/layout/spacing: 10 #不知道干嘛的+1，不清楚效果
+  style/layout/candidate_spacing: 12 # 候选字间隔
+  style/layout/round_corner: 0 #候选字背景色块圆角幅度
+  style/layout/corner_radius: 0 # 候选窗口的圆角半径
