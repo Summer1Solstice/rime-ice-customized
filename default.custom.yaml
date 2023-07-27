@@ -3,7 +3,7 @@ patch:
   schema_list:
     - schema: rime_ice
   #候选词个数
-  menu/page_size: 9
+  menu/page_size: 10
   # 方案选单相关
   switcher:
     caption: 「方案选单」
@@ -16,8 +16,9 @@ patch:
       - emoji
       - full_shape
     fold_options: false            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
-    abbreviate_options: false      # 折叠时是否缩写选项
+    abbreviate_options: true      # 折叠时是否缩写选项
     option_list_separator: ' / '  # 折叠时的选项分隔符
+
   # 中西文切换
   # 
   # good_old_caps_lock:

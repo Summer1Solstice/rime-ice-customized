@@ -27,12 +27,12 @@ switches:
     reset: 0
   - name: ascii_punct # 中英标点
     states: [ ¥, $ ]
-    #reset: 0
+    # reset: 0
   - name: traditionalization
     states: [ 简, 繁 ]
-    reset: 0.
+    reset: 0
   - name: emoji
-    states: [ ❌, ⭕ ]
+    states: [ 💀, 😄 ]
     reset: 0
   - name: full_shape
     states: [ 半角, 全角 ]
@@ -72,8 +72,7 @@ engine:
     - lua_filter@v_filter                 # v 模式 symbols 优先（否则是英文优先）
     - lua_filter@autocap_filter           # 英文自动大写
     - lua_filter@reduce_english_filter    # 降低部分英语单词在候选项的位置
-    - lua_filter@long_word_filter         # 长词优先（建议放到靠后位置，不然内存起飞后不降下来）
-    - uniquifier                          # 去重（建议去重组件放到最后）
+    - uniquifier                          # 去重
 
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
@@ -83,13 +82,6 @@ date_translator:
   week: xq       # 星期： 星期二
   datetime: dt   # ISO 8601： 2022-11-29T18:13:11+08:00
   timestamp: ts  # 时间戳： 1669716794
-
-
-# Lua 配置: 长词优先，提升 count 个词语，插入到第 idx 个位置。
-# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
-long_word_filter:
-  count: 2
-  idx: 4
 
 
 # Lua 配置: 降低部分英语单词在候选项的位置
@@ -105,7 +97,7 @@ reduce_english_filter:
   lux, moc, mos, mot, mum, nad, nay, nib, nip, pak, pap, pax, rig, rum, sac, sal,
   sax, sec, shin, sis, ska, slang, sus, tad, taj, tac, tic, yep, yum, fax, cain,
   key, mob, buy, dam, wap, yes, but, put, lag, buf, lip, aid, aim, dig, dim, din,
-  dip, pail, cad, chap, bend]
+  dip, pail, cad, chap, bend, lid, gem, tin]
 
 
 # 引入八股文
@@ -115,15 +107,15 @@ grammar:
 
 # 主翻译器，拼音
 translator:
-  dictionary: rime_ice          # 挂载词库 rime_ice.dict.yaml
-  contextual_suggestions: true  # 开启八股文
-  initial_quality: 1.2          # 拼音的权重应该比英文大
-  preedit_format:               # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
-    - xform/([jqxy])v/$1u/      # 显示为 ju qu xu yu
-    # - xform/([nl])v/$1ü/      # 显示为 nü lü
-    # - xform/([nl])ue/$1üe/    # 显示为 nüe lüe
-    - xform/([nl])v/$1v/        # 显示为 nv lv
-    - xform/([nl])ue/$1ve/      # 显示为 nve lve
+  dictionary: rime_ice           # 挂载词库 rime_ice.dict.yaml
+  contextual_suggestions: false  # 是否开启八股文
+  initial_quality: 1.2           # 拼音的权重应该比英文大
+  preedit_format:                # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
+    - xform/([jqxy])v/$1u/       # 显示为 ju qu xu yu
+    # - xform/([nl])v/$1ü/       # 显示为 nü lü
+    # - xform/([nl])ue/$1üe/     # 显示为 nüe lüe
+    - xform/([nl])v/$1v/         # 显示为 nv lv
+    - xform/([nl])ue/$1ve/       # 显示为 nve lve
 
 
 # 次翻译器，英文
