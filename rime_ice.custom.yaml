@@ -1,0 +1,26 @@
+patch:
+  switches:
+    - name: ascii_mode
+      states: [ 中, A ]
+      reset: 0
+    - name: ascii_punct # 中英标点
+      states: [ ¥, $ ]
+      # reset: 0
+    - name: traditionalization
+      states: [ 简, 繁 ]
+      reset: 0
+    - name: emoji
+      states: [ 🈚, 🈶 ]
+      reset: 0
+    - name: full_shape
+      states: [ 半角, 全角 ]
+      reset: 0
+
+  engine/filters:
+    - simplifier@emoji                    # Emoji
+    - simplifier@traditionalize           # 简繁切换
+    - lua_filter@v_filter                 # v 模式 symbols 优先（否则是英文优先）
+    - lua_filter@autocap_filter           # 英文自动大写
+    - lua_filter@cn_en_spacer             # 中英混输词条自动空格
+    - lua_filter@reduce_english_filter    # 降低部分英语单词在候选项的位置
+    - uniquifier                          # 去重
