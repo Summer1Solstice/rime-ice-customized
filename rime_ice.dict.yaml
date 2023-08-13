@@ -18,6 +18,7 @@ import_tables:
   # - cn_dicts/mydict
   - custom_dict/Dota2_YX
   - custom_dict/Dota2_WP
+  - custom_dict/Minecraft
   
   - SuperRime/luna_pinyin.anime
   - SuperRime/luna_pinyin.biaoqing
