@@ -22,6 +22,9 @@
 #
 # 此行之后不能写注释
 
+我的世界	wodeshijie	3
+Minecraft	wodeshijie	2
+Mojang	wodeshijie	1
 
 欻	chua
 噷	hm
