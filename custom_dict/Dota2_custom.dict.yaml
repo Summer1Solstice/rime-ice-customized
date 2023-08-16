@@ -14,7 +14,7 @@
 
 ---
 name: xz_ziku.dict.yaml
-version: "2023-06-26"
+version: "2023-08-16"
 sort: by_weight
 columns:    # 不写 columns 属性时，默认顺序为：
   - text    # 词汇
@@ -88,3 +88,14 @@ columns:    # 不写 columns 属性时，默认顺序为：
 邪影芳灵	xiao xian nv
 马格纳斯	meng ma
 黑暗贤者	hei xian
+
+回城卷轴	tp
+净化药水	xiao lan
+仙灵之火	xian huo
+诡计之雾	wu
+侦查守卫	jia yan
+岗哨守卫	zhen yan
+
+魔晶
+
+魔免	mo mian

@@ -10,8 +10,8 @@ patch:
       states: [ 简, 繁 ]
       reset: 0
     - name: emoji
-      states: [ 🈚, 🈶 ]
-      reset: 0
+      states: [ ❌, ⭕ ]
+      # reset: 0
     - name: full_shape
       states: [ 半角, 全角 ]
       reset: 0
