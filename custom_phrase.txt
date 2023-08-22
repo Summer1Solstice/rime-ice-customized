@@ -26,6 +26,11 @@
 Minecraft	wodeshijie	2
 Mojang	wodeshijie	1
 
+他	ta	4
+她	ta	3
+它	ta	2
+祂	ta	1
+
 欻	chua
 噷	hm
 哼	hng
