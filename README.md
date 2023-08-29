@@ -15,6 +15,23 @@
 
 # 更新记录
 
+## 2023-08-29
+
+同步`rime-ice`的 Lua 文件，同步`emoji`文件夹，启用强制删词、隐藏候选词功能。
+
+删除或者说隐藏了一个候选词，因为难以确认这个候选词来自那个词库。
+
+**rime.lua**
+```Lua
+词条隐藏、降频
+在 engine/processors 增加 - lua_processor@cold_word_drop_processor
+在 engine/filters 增加 - lua_filter@cold_word_drop_filter
+在 key_binder 增加快捷键：
+turn_down_cand: "Control+j"  # 匹配当前输入码后隐藏指定的候选字词 或候选词条放到第四候选位置
+drop_cand: "Control+d"       # 强制删词, 无视输入的编码
+```
+调整`Control+j`的词条位置到 10 ，也就是翻页后的第一位。
+
 ## 2023-08-15
 
 更新了几次，但忘了写日志。
