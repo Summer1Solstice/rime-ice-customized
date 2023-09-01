@@ -1,0 +1,26 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 我自己的补充字库.
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 于重新部署后生效
+#
+
+---
+name: chouxiang.dict.yaml
+version: "2023-08-16"
+sort: by_weight
+columns:    # 不写 columns 属性时，默认顺序为：
+  - text    # 词汇
+  - code    # 编码
+  - weight  # 权重
+  #- stem    # 造词码（不知道是啥，好像和拼音方案没有关系）
+...
+满昏	man hun
+D区	ou

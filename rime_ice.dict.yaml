@@ -16,15 +16,18 @@ import_tables:
 
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - cn_dicts/mydict
-  - custom_dict/Dota2_YX
-  - custom_dict/Dota2_WP
+  - custom_dict/Dota2_custom
+  - custom_dict/Dota2_SG
   - custom_dict/Minecraft
-  
+  - custom_dict/chouxiang
+
+  # - SuperRime/easy_en
   - SuperRime/luna_pinyin.anime
   - SuperRime/luna_pinyin.biaoqing
   - SuperRime/luna_pinyin.chat
-  - SuperRime/luna_pinyin.cn_en
+  # - SuperRime/luna_pinyin.cn_en
   - SuperRime/luna_pinyin.computer
+  - SuperRime/luna_pinyin.english
   - SuperRime/luna_pinyin.extra_hanzi
   - SuperRime/luna_pinyin.game
   - SuperRime/luna_pinyin.history
@@ -34,22 +37,16 @@ import_tables:
   - SuperRime/luna_pinyin.net
   - SuperRime/luna_pinyin.place
   - SuperRime/luna_pinyin.poetry
+  - SuperRime/luna_pinyin.sgmain
   - SuperRime/luna_pinyin.sgplus
   - SuperRime/luna_pinyin.sgplus2
   - SuperRime/luna_pinyin.shopping
   - SuperRime/luna_pinyin.user
   - SuperRime/luna_pinyin.webdict
   - SuperRime/luna_pinyin.website
-  # - SuperRime/luna_pinyin.sgmain
-  # - SuperRime/luna_pinyin.sgmain2
-  # - SuperRime/luna_pinyin.sgmain3
-  # - SuperRime/luna_pinyin.sgmain4
-  # - SuperRime/luna_pinyin.sgmain5
-  # - SuperRime/luna_pinyin.sgmain6
-  # - SuperRime/luna_pinyin.sgmain7
-  # - SuperRime/luna_pinyin.sgmain8
-  # - SuperRime/luna_pinyin.sgmain9
-  # - SuperRime/luna_pinyin.english
+  # - SuperRime/super_rime.01
+  # - SuperRime/super_rime.02
+  # - SuperRime/super_rime.03
 ...
 
 # 按需启用：
