@@ -13,8 +13,8 @@
 #
 
 ---
-name: chouxiang.dict.yaml
-version: "2023-08-16"
+name: Stardew_Valley.dict.yaml
+version: "2023-09-14"
 sort: by_weight
 columns:    # 不写 columns 属性时，默认顺序为：
   - text    # 词汇
@@ -22,7 +22,16 @@ columns:    # 不写 columns 属性时，默认顺序为：
   - weight  # 权重
   #- stem    # 造词码（不知道是啥，好像和拼音方案没有关系）
 ...
-满昏	man hun
-D区	ou
-彳亍口巴	xing ba
-爪巴	pa
+星之果实	xing zhi guo shi
+铱矿	yi kuang
+银河剑	yin he jian
+无限之刃	wu xian zhi ren
+祝尼魔	zhu ni mo
+宝石甜莓	bao shi tian mei
+上古水果	shang gu shui guo
+绯红鱼	shui hong yu
+冰川鱼	bing chuan yu
+传说之鱼	chuan shuo zhi yu
+午夜鲤鱼	wu ye li yu
+木跃鱼	mu yue yu
+岩浆鳗鱼	yan jiang yu
