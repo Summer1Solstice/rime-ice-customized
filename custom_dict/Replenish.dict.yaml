@@ -1,0 +1,20 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 我自己的补充字库.
+# 补充词库
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 于重新部署后生效
+#
+
+---
+name: Replenish.dict.yaml
+version: "2023-09-19"
+sort: by_weight
+...
+nexusmods	nexusmods

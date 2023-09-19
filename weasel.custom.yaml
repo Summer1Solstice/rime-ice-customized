@@ -23,6 +23,7 @@ patch:
     # preedit_type: preview
     # 允许在光标位置获取失败时于窗口左上角绘制候选框
     enhanced_position: true
+    # 候选框
     layout:
       border_width: 0 #边框宽度
       border: 0 #边框宽度
