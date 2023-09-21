@@ -36,7 +36,6 @@ AutoHotkey	ahk	1
 
 nexusmods	nwang
 
-欻	chua
 噷	hm
 哼	hng
 
