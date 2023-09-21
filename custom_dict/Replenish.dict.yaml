@@ -18,3 +18,6 @@ version: "2023-09-19"
 sort: by_weight
 ...
 nexusmods	nexusmods
+WSL	wsl
+mkdir	mkdir
+rmdir	rmdir
