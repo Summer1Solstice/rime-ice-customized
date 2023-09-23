@@ -25,6 +25,17 @@
 我的世界	wodeshijie	3
 Minecraft	wodeshijie	2
 Mojang	wodeshijie	1
+缺氧	queyang	2
+Oxygen Not Included	queyang	1
+泰拉瑞亚	tailaruiya	2
+Terraria	tailaruiya	1
+饥荒联机版	jihuanglianjiban	2
+Don't Starve Together	jihuanglianjiban	1
+星露谷物语	xingluguwuyv	2
+Stardew Valley	xingluguwuyv	1
+Dota2	dota	2
+Dota	dota	1
+Valve    vshe	2
 
 他	ta	4
 她	ta	3
