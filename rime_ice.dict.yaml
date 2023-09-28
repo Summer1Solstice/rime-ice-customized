@@ -16,7 +16,7 @@ import_tables:
 
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - cn_dicts/mydict
-  - custom_dict/Replenish
+  - custom_dict/supplement
   - custom_dict/Dota2_custom
   - custom_dict/Minecraft
   - custom_dict/Stardew_Valley
