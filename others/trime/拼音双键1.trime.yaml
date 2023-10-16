@@ -1,0 +1,25 @@
+    keys:
+      #第一行
+      - {label: "Q W", click: w, long_click: 1, swipe_down: "!", swipe_up: "~"}
+      - {label: "E R", click: r, long_click: 2, swipe_down: "@", swipe_up: "(){Left}"}
+      - {label: "T Y", click: y, long_click: 3, swipe_down: "#", swipe_up: "[]{Left}"}
+      - {label: "U I", click: i, long_click: 4, swipe_down: "$", swipe_up: "{}{Left}"}
+      - {label: "O P", click: p, long_click: 5, swipe_down: "%", swipe_up: "\\",swipe_left: "|"}
+ 
+      #第二行
+      # - {width: 5}
+      - {label: "A S", click: s, long_click: 6, swipe_down: "^", swipe_up: "-", swipe_right: "_"}
+      - {label: "D F", click: f, long_click: 7, swipe_down: "&", swipe_up: "="}
+      - {label: "G H", click: h, long_click: 8, swipe_down: "*", swipe_up: "+"}
+      - {label: "J K", click: k, long_click: 9, swipe_down: ":", swipe_up: ";"}
+      - {label: "L"  , click: l, long_click: 0, swipe_down: "?"}
+ 
+      #第三行
+      - {label: "分词" , click: Shift_L, composing: Escape, width: 15}
+      - {width: 1}
+      - {label: "Z X"  , click: x, width: 17}
+      - {label: "C V", click: v, width: 17}
+      - {label: "B N", click: n, width: 17}
+      - {label: "M", click: m, long_click: "/", width: 15}
+      - {width: 1}
+      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, width: 13, key_text_size: 21}
