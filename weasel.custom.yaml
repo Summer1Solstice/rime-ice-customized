@@ -54,6 +54,8 @@ patch:
       ascii_mode: true
     cmd.exe:
       ascii_mode: true
+    mintty.exe:
+      ascii_mode: true
   # 仿win10配色
   preset_color_schemes/Win10:
     # scheme_name: Win10
