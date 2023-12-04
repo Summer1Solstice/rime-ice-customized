@@ -60,6 +60,8 @@ patch:
       ascii_mode: true
     PotPlayerMini64.exe:
       ascii_mode: true
+    CivilizationVI_DX12.exe:
+      ascii_mode: true
   # 仿win10配色
   preset_color_schemes/Win10:
     # scheme_name: Win10
