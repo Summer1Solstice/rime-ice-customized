@@ -13,8 +13,8 @@
 #
 
 ---
-name: xz_ziku.dict.yaml
-version: "2023-08-16"
+name: Dota2的英雄物品等词汇收集
+version: "2023-12-19"
 sort: by_weight
 columns:    # 不写 columns 属性时，默认顺序为：
   - text    # 词汇
@@ -89,13 +89,26 @@ columns:    # 不写 columns 属性时，默认顺序为：
 马格纳斯	meng ma
 黑暗贤者	hei xian
 
+赛莉蒙妮	sai li meng ni
+
 回城卷轴	tp
 净化药水	xiao lan
 仙灵之火	xian huo
 诡计之雾	wu
 侦查守卫	jia yan
 岗哨守卫	zhen yan
-
-魔晶
+魔晶	mo jing
+绝刃	jue ren
+血腥榴弹	xue xing liu dan
+赛莉蒙妮之冠	sai li meng ni zhi guan
+恐鳌之戒	kong ao zhi jie
+圣斧	sheng fu
+散魂剑	san huan jian
+灵匣	ling xian
+英灵胸针	ying ling xiong zhen
 
 魔免	mo mian
+减益免疫	jian yi mian yi
+
+双生之门	shuang sheng zhi men
+痛苦魔方	tong ku mo fang
