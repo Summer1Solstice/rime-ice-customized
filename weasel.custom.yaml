@@ -39,9 +39,9 @@ patch:
       corner_radius: 0 # 候选窗口的圆角半径
 
   # 以下应用默认英文输入
-  app_options:
-    # code.exe: #VSCode
-    # ascii_mode: true
+  app_options/+:
+    code.exe: #VSCode
+      ascii_mode: false
     dontstarve_steam_x64.exe: #饥荒联机版 
       ascii_mode: true
     openconsole.exe:
