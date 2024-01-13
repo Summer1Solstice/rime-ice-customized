@@ -16,7 +16,7 @@ patch:
     font_point: 16
     # 候选词横排
     horizontal: true
-    # 全屏排列
+    # 候选窗口全屏显示：true；false
     fullscreen: false
     # 行内显示预编辑区
     inline_preedit: true
@@ -25,7 +25,12 @@ patch:
     # preedit_type: preview
     # 允许在光标位置获取失败时于窗口左上角绘制候选框
     enhanced_position: true
-    # 候选框
+    # 标记字符，显示在选中的候选标签前，需要在配色方案中指定颜色；如该项为空字符串 "" 而配色方案中 hilited_mark_color 非透明色，则显示 Windows 11 输入法风格标记
+    mark_text: ""
+    # 切换 ASCII 模式时，提示跟随鼠标，而非输入光标
+    ascii_tip_follow_cursor: true
+
+    # 候选框 #
     layout:
       border_width: 0 #边框宽度
       border: 0 #边框宽度
@@ -38,7 +43,7 @@ patch:
       round_corner: 0 #候选字背景色块圆角幅度
       corner_radius: 0 # 候选窗口的圆角半径
 
-  # 以下应用默认英文输入
+  # 以下应用默认英文输入 #
   app_options/+:
     code.exe: #VSCode
       ascii_mode: false
@@ -62,7 +67,8 @@ patch:
       ascii_mode: true
     CivilizationVI_DX12.exe:
       ascii_mode: true
-  # 仿win10配色
+  
+  # 仿win10配色 #
   preset_color_schemes/Win10:
     # scheme_name: Win10
     name: 仿Win10
