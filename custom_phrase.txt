@@ -50,6 +50,8 @@ AutoHotkey	ahk	1
 
 nexusmods	nwang
 
+浮游炮	fuyoupao	1
+
 噷	hm
 哼	hng
 
