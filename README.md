@@ -15,6 +15,10 @@
 
 # 更新记录
 
+## 2024-03-16
+
+使用[Last Resort](https://github.com/unicode-org/last-resort-font)作最后托底字体
+
 ## 2024-01-13
 
 删除选中候选词前的标记，切换中英提示跟随鼠标

@@ -9,7 +9,7 @@ patch:
     # 皮肤
     color_scheme: Win10
     # 字体 全局：霞鹜文楷 GB 屏幕阅读版 R
-    font_face: "Segoe UI Emoji:20:39, Noto Color Emoji SVG:80, Arial:600:6ff, Segoe UI Emoji:80, LXGW WenKai GB Screen R"
+    font_face: "Segoe UI Emoji:20:39, Noto Color Emoji SVG:80, Arial:600:6ff, Segoe UI Emoji:80, LXGW WenKai GB Screen R, Last Resort"
     label_font_face: "Microsoft YaHei:light" # 标签字体 微软雅黑细体
     comment_font_face: "Microsoft YaHei" # 注释字体
     # 字号
