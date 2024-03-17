@@ -15,6 +15,10 @@
 
 # 更新记录
 
+## 2024-03-17
+
+同步rime-ice，关闭错字错音提示功能
+
 ## 2024-03-16
 
 使用[Last Resort](https://github.com/unicode-org/last-resort-font)作最后托底字体
