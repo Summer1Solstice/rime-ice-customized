@@ -36,7 +36,7 @@ Don't Starve Together	jihuanglianjiban	1
 Stardew Valley	xingluguwuyv	1
 Dota2	dota	2
 Dota	dota	1
-Valve    vshe	2
+Valve	vshe	2
 
 他	ta	4
 她	ta	3
