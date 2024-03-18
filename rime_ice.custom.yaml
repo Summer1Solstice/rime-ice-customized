@@ -1,4 +1,8 @@
 patch:
+  # 开关
+  # reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
+  # states: 方案选单显示的名称。可以注释掉，仍可以通过快捷键切换。
+  # abbrev: 默认的缩写取 states 的第一个字符，abbrev 可自定义一个字符
   switches:
     - name: ascii_mode
       states: [ 中, A ]
@@ -15,13 +19,9 @@ patch:
     - name: full_shape
       states: [ 半角, 全角 ]
       reset: 0
-
-  engine/filters:
-    - simplifier@emoji                        # Emoji
-    - simplifier@traditionalize               # 简繁切换
-    - lua_filter@v_filter                     # v 模式 symbols 优先（否则是英文优先）
-    - lua_filter@autocap_filter               # 英文自动大写
+    - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
+      abbrev: [词, 单]
+      states: [正常, 单字]
+  engine/filters/+:
     - lua_filter@cn_en_spacer                 # 中英混输词条自动空格
-    - lua_filter@reduce_english_filter        # 降低部分英语单词在候选项的位置
-    - uniquifier                              # 去重
     - lua_filter@cold_word_drop_filter        # 强制删词, 无视输入的编码 "Control+d"

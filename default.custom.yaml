@@ -15,6 +15,7 @@ patch:
       - traditionalization
       - emoji
       - full_shape
+      - search_single_char
     fold_options: false            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
     abbreviate_options: true      # 折叠时是否缩写选项
     option_list_separator: ' / '  # 折叠时的选项分隔符
@@ -51,7 +52,20 @@ patch:
     - { when: paging, accept: Prior, send: Page_Up }
     - { when: paging, accept: Next, send: Page_Down }
 
-    - { when: always, accept: Shift_R, toggle: ascii_mode }          # 切换中英
-    - { when: always, accept: Control+period, toggle: ascii_punct }           # 切换中英标点
-    #- { when: always, accept: Shift+f, toggle: traditionalization }    # 切换简繁 此项无效,暂时没想到用什么快捷键.
-    - { when: always, accept: Shift+space, toggle: full_shape }          # 切换全半角
+    - { when: always, accept: Shift_R, toggle: ascii_mode }           # 切换中英 右Shift
+    - { when: always, accept: Control+period, toggle: ascii_punct }   # 切换中英标点 Ctrl+空格
+    #- { when: always, accept: Shift+f, toggle: traditionalization }  # 切换简繁 此项无效,暂时没想到用什么快捷键.
+    - { when: always, accept: Shift+space, toggle: full_shape }       # 切换全半角 Shift+空格
+    - { when: composing, accept: Control+k, send: Shift+Delete }      # 删除自造词
+    # 将小键盘 0~9 . 映射到主键盘，数字金额大写的 Lua 如 R1234.5678 可使用小键盘输入
+    - {accept: KP_0, send: 0, when: composing}
+    - {accept: KP_1, send: 1, when: composing}
+    - {accept: KP_2, send: 2, when: composing}
+    - {accept: KP_3, send: 3, when: composing}
+    - {accept: KP_4, send: 4, when: composing}
+    - {accept: KP_5, send: 5, when: composing}
+    - {accept: KP_6, send: 6, when: composing}
+    - {accept: KP_7, send: 7, when: composing}
+    - {accept: KP_8, send: 8, when: composing}
+    - {accept: KP_9, send: 9, when: composing}
+    - {accept: KP_Decimal, send: period, when: composing}
